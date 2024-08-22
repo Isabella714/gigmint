@@ -1,0 +1,24 @@
+[server]
+name = "GiGMint"
+
+[mysql]
+db_name = "gigmint"
+host = "localhost"
+port = "3306"
+user = "root"
+password = ""
+max_open_conns = 200
+max_idle_conns = 10
+max_life_time = 1
+
+[contract]
+gigcampaign = "" # gigcampaign contract address
+gigtune = "" # gigtune contract address
+gigmint = "" # gigmint contract address
+
+[blockchain]
+chain_uri = "" # rpc url
+chain_id = 97
+private_key = "" # wallet private key
+gas_limit = 20000000
+max_gas_price = 10000000000
